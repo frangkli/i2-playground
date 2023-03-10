@@ -1,0 +1,4 @@
+- Why did you make the design decision you made?
+- What would be the advantages of your system?
+- What would be the disadvantages?
+- What hardware did you use to implement this? In your opinion, is it possible to use the existing biological nervous system to run computation algorithms like CNNs? Why?
