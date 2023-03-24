@@ -1,4 +1,11 @@
 - Why did you make the design decision you made?
+  - My design is sort of a combination of BCI and neuromorphic computing where we use the existing biological nervous system and extend it with BCI technology to run more computationally challenging tasks and store more information.
+  - This way, the brain can work as a portable computing device that we use on a day-to-day basis. And we can use the extended computer brain to run more computationally intensive tasks when needed.
 - What would be the advantages of your system?
+  - This system would combine the advantages of the biological brain with the advantages of machine learning algorithms.
+  - It also increases the memory size of human by having an external SSD which allows offsite storage of knowledge and easy transfer of knowledge between people.
 - What would be the disadvantages?
+  - The disadvantage of this technology would be safety of the BCI technology and the social implications of the computer brain and external memory.
 - What hardware did you use to implement this? In your opinion, is it possible to use the existing biological nervous system to run computation algorithms like CNNs? Why?
+  - The only new hardware in this system would be the BCI technology that allows for brain-computer communication in order to enhance the ability of the human brain.
+  - I think it is possible to use more "expansion" technologies like more input channels similar to the eye that is attachable to the brain to allow for more information to be processed by the brain.
