@@ -6,7 +6,7 @@
 	- Kernel
 - What are some examples of what you can do to images if you convolve them with special matrices?
 	- Blur, edge detection and image sharpening
-- How does Gaussian blur  "work"?
+- How does Gaussian blur "work"?
 	- Having a kernel with values sample from a Gaussian distribution where the center pixel has the highest weight and the edge pixels have the lowest weight. This way the pixel with be blurred.
 - What is the name for the actual operation that occurs when the smaller grid is overlaid on the larger one?
 	- Convolution

@@ -9,21 +9,37 @@
 
 ### Linear Regression
 - What is a feature in this context?
+  - A feature in linear regression is a variable that is used as input to form a linear model in order to predict the output.
 - What are the significant of the $\beta$ terms within the modified $y=mx+b$ equations described in the article?
-- What is SSE	:
-	- How is it calculated?
-	- What can it tell you about the values you chose for $\beta$
-	- If you modify the $\beta_{1}$ term and the SSE goes up, was that a good modification?
+  - They are the weights for each feature of the linear model and hence is important to the model's accuracy.
+- What is SSE:
+	- **How is it calculated?**
+  	- It is the sum of the squared errors of the model where error is the difference between the predicted value and the actual value.
+	- **What can it tell you about the values you chose for $\beta$**
+  	- They can tell you how each feature of the input data affects the output, i.e. what features are more significant to the model.
+	- **If you modify the $\beta_{1}$ term and the SSE goes up, was that a good modification?**
+  	- No, because SSE is the sum of the squared errors, hence if SSE goes up, the error went up and the model is less accurate.
 - Write out the linear regression formula (involving $\beta$) when you wish to estimate the impact of age, height, and weight of someone regarding their marital status.
+  - Marital Status = $\beta_{0}$ + $\beta_{1}$ * Age + $\beta_{2}$ * Height + $\beta_{3}$ * Weight
 - What are the 4 assumptions described that you need to confirm before using linear regression?
+  1. Linear relationship between the input and output
+  2. Constant variance of the data - homoscedasticity
+  3. Independence of errors
+  4. Lack of perfect multicollinearity - features should be linearly independent of each other
 - What is homoscedasticity? What is heteroscedasticity?
+  - Homoscedasticity is when the variance of the data is constant, while heteroscedasticity is when the variance of the data is not constant. For linear regression, the data needs to be homoscedastic.
 
 ### SVM
 - What are some use cases for an SVM? What does it do?
+  - SVM is useful for classification problems by finding a hyperplane that classifies different classes of data.
 - What is the margin?
+  - Margin is the distance between the hyperplane and the closest data points.
 - Why does the margin need to be maximized? What does this allow for?
+  - Because then the hyperplane is as far as possible from the closest data points, hence allowing more data points in between the classification hyperplane and the data points.
 - What are the support vectors?
+  - They are the data points that are closest to the hyperplane and are used to define the margin.
 - What is the difference between a hard and soft margin SVM?
+  - Hard margin SVM is when the data points are linearly separable, while soft margin SVM is when the data points are not linearly separable. It means that, in a hard margin, all data points are on the correct side of the hyperplane, while in a soft margin, some data points are on the wrong side of the hyperplane.
 
 ### SVM Math
 - $wx-b=-1$ defines a margin of support vectors.
